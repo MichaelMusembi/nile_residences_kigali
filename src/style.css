@@ -1,0 +1,111 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: #003580;
+    padding: 15px 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+
+/* Hero Section */
+.hero {
+    background: #003580;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin: 0 0 10px;
+}
+
+.hero p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Rooms Section */
+.rooms-section {
+    padding: 50px 0;
+}
+
+.rooms-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.room-card {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+.room-image img {
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.room-details {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.room-details h3 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    color: #003580;
+}
+
+.room-details p {
+    font-size: 14px;
+    color: #666;
+}
+
+.book-now-btn {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #003580;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.book-now-btn:hover {
+    background-color: #005bb5;
+}
